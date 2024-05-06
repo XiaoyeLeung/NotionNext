@@ -14,12 +14,12 @@ const Footer = ({ title }) => {
   })()
 
   return (
-    <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-indigo-700 text-gray-300 justify-center text-center m-auto w-full leading-6  dark:text-gray-100 text-sm p-6'>
+    <footer className='relative z-10 dark:bg-black flex-shrink-0 bg-green-900 text-gray-300 justify-center text-center m-auto w-full leading-6  dark:text-gray-100 text-sm p-6'>
       {/* <DarkModeButton/> */}
       <i className='fas fa-copyright' /> {`${copyrightDate}`}{' '}
       <span>
         <span className='w-5 mx-1 text-center'>
-          <i className=' animate-pulse fas fa-heart' />
+          <i className=' animate-pulse fas fa-users' />
         </span>{' '}
         <a
           href={siteConfig('LINK')}
